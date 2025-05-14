@@ -5,7 +5,7 @@
 }
 .container{
     margin: auto;
-    width:calc(100%-30px);
+    width:80%;
     
 }
 .flex{
@@ -47,5 +47,31 @@ ul.flex{
 }
 label .open, label .close{
     display: none;
+}
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+header h1 span {
+color: #36c7c0 ;
+}
+h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+p{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 90px;
+}
+.btnHeader{
+    padding: 10px 20px;
+    background-color: #36c7c0;
+border:none;
+color: white;
+font-size: medium;
+font-weight: 700;
 }
 
