@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "webfonts",
+			"path": "../../fontawesome-free-6.7.2-web/webfonts"
+		},
+		{
+			"name": "src",
+			"path": "../.."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "src"
+	}
+}
