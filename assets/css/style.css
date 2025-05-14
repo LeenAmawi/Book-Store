@@ -53,6 +53,10 @@ header{
     display: flex;
     align-items: center;
     height: 90vh;
+    background-image: url('../images/backroung.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat-y: no-repeat;
 }
 header h1 span {
 color: #36c7c0 ;
@@ -74,4 +78,5 @@ color: white;
 font-size: medium;
 font-weight: 700;
 }
+
 
