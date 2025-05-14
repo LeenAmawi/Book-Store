@@ -85,6 +85,7 @@ font-weight: 700;
 .card{
     text-align: center;
     width:20%;
+    
     box-shadow:0px 1px 10px var(--primary);
     height:auto;
 }
