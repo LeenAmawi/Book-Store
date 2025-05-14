@@ -29,11 +29,21 @@
         #menu-check:checked~ label .close{
             display:inline;
         }
-       
+        .About .flex{
+             flex-wrap: wrap; 
+            flex-direction:row;
+            gap: 15px;
+        }
+       .card{
+        width: 40%;
+        /* max-width: 100%; */
+       }
 
 }
 @media screen and (max-width:600px){
     h1{
         font-size: 40px
     }
+    .card{
+        width:100%;
 }
