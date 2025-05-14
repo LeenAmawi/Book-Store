@@ -28,7 +28,21 @@ nav{
 i{
     font-size: 30px;
 }
+ul li a{
+    font-size: 20px;
+   font-weight: bold;
+   color:black ;
+   text-decoration: none;
+}
 ul.flex{
     gap: 30px;
     margin-right: auto;
 }
+.navbar{
+    border-bottom: 3px solid #36c7c0;
+    box-shadow: 0 0 20px 0 #36c7c0;
+}
+.bookColor{
+    color: #36c7c0;
+}
+
