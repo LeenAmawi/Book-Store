@@ -58,24 +58,27 @@ label .open, label .close{
 header{
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: auto;
     background-image: url('../images/backroung.jpeg');
     background-size: contain;
     background-position: center;
     background-repeat-y: no-repeat;
 }
+
 header h1 span {
 color: var(--primary);
 }
 h1{
     font-size: 60px;
+      padding-top: 130px;
     padding-bottom: 50px;
 }
 p{
-margin-bottom: 90px;
+margin-bottom: 50px;
 }
 .btnHeader{
     padding: 10px 20px;
+    margin-bottom: 60px;
     background-color:var(--primary);
 border:none;
 color: white;
