@@ -38,6 +38,13 @@
         width: 40%;
         /* max-width: 100%; */
        }
+       .Img{
+        width:100%;
+       }
+       header .flex {
+        flex-direction: column;
+        gap:25px;
+       }
 
 }
 @media screen and (max-width:600px){

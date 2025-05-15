@@ -54,16 +54,27 @@ ul.flex{
 label .open, label .close{
     display: none;
 }
-/* header */
+/* header ...................................................*/
 header{
     display: flex;
     align-items: center;
-    height: auto;
+    height: 100%;
     background-image: url('../images/backroung.jpeg');
     background-size: contain;
     background-position: center;
     background-repeat-y: no-repeat;
 }
+ .content{
+    max-width: 100%;
+    width: 800px;
+}
+ .Img{
+       width:500px;
+    
+    }
+    header .flex{
+        gap:200px;
+    }
 
 header h1 span {
 color: var(--primary);
@@ -85,6 +96,9 @@ color: white;
 font-size: medium;
 font-weight: 700;
 }
+
+
+/* .................aboutsection.................. */
 .card{
     text-align: center;
     width:20%;
@@ -109,20 +123,15 @@ h4{
     padding-top: 10px;
 }
 
-/*     .............. */
-about2{
+/*    ..........about2 .............. */
+.about2{
     margin-top: 40px;
 }
 .about2 .flex{
 justify-content: space-between;
 gap: 400px;
 }
-.about2 .image{
-    width: 40%;
-      
-    margin-top: 50px;
-}
-.about2 .content{
-    width: 40%;
-}
+
+
+   
 
