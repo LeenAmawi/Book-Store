@@ -161,6 +161,9 @@ margin-top:5px;
     width:120px ;
     height:183px ;
 }
+ .FeaturedBook .flex{
+        gap: 20px;
+       }
  
 
    
