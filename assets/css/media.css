@@ -41,7 +41,7 @@
        .Img{
         width:100%;
        }
-       header .flex {
+       header .flex, .about2 .flex {
         flex-direction: column;
         gap:25px;
        }
