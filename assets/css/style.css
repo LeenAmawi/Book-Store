@@ -184,13 +184,16 @@ font-size: 15px;
         font-size: 40px;  
  }
   .newArrivals .flex{
-    gap: 80px;
+    gap: 50px;
     margin-bottom: 30px;
   }
 
 .newArrivals div i{
     color: var(--primary);
     font-size: 15px;
+}
+.newArrivals .container{
+    margin: auto;
 }
    
 
