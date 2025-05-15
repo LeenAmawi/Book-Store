@@ -125,6 +125,8 @@ h4{
 .about2{
     margin-top: 40px;
 }
+/* featured book */
+
 .cardBook
 {
 border: 2px solid black;
@@ -155,6 +157,11 @@ ins{
 margin-top:5px;
 
 }
+.editImgBooks{
+    width:120px ;
+    height:183px ;
+}
+ 
 
    
 
