@@ -44,10 +44,14 @@
        .Img{
         width:100%;
        }
-       header .flex,.about2 .flex{
+       header .flex,.about2 .flex , .newArrivals .flex{
         flex-direction: column;
         gap:25px;
        }
+       .cardBook{
+         width:50%;
+       }
+       
       
 
 }
@@ -55,7 +59,7 @@
     h1{
         font-size: 40px
     }
-    .card{
+    .card , .cardBook{
         width:100%;}
 }
 /* @media screen and (max-width:1010px){
