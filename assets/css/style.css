@@ -148,7 +148,7 @@ ins{
     text-decoration: none;
 
 }
-.FeaturedBook .btnHeader{
+.FeaturedBook .btnHeader , .newArrivals .btnHeader{
     border: 1px solid var(--primary);
     background-color: white;
     color: black;
