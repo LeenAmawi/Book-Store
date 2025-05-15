@@ -183,6 +183,10 @@ font-size: 15px;
         margin-bottom: 30px;
         font-size: 40px;  
  }
+  .newArrivals .flex{
+    gap: 80px;
+ 
+  }
 
    
 
