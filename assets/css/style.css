@@ -188,5 +188,8 @@ font-size: 15px;
     margin-bottom: 30px;
   }
 
+.newArrivals div i{
+    color: var(--primary);
+}
    
 
