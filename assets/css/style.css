@@ -168,13 +168,16 @@ font-size: 15px;
        .FeaturedBook{
         margin-top: 50px;
        }
-       .FeaturedBook h2{
+       .FeaturedBook h2 {
         text-align: center;
         margin-bottom: 80px;
         font-size: 40px;
        }
+/* ..................................newarrivals */
+ .newArrivals {
+   margin-top: 250px; 
+ }
 
- 
 
    
 
