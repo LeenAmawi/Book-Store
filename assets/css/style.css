@@ -70,9 +70,8 @@ header{
 }
  .Img{
        width:500px;
-    
     }
-    header .flex{
+    header .flex,.about2 .flex{
         gap:200px;
     }
 
@@ -127,10 +126,7 @@ h4{
 .about2{
     margin-top: 40px;
 }
-.about2 .flex{
-justify-content: space-between;
-gap: 400px;
-}
+
 
 
    
