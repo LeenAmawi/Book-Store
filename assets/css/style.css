@@ -251,10 +251,14 @@ font-size: 10px;
     text-align: center;
     margin: 15px 0px;
 }
-.ourBlog .blogImg{
+.ourBlog img{
     width: 100%;
-    height: 40px;
+    height: 30%;
 }
 .ourBlog .card{
     width:30%;
+}
+
+.ourBlog  .blogImg{
+    height: 200px;
 }
