@@ -195,5 +195,8 @@ font-size: 15px;
 .newArrivals .container{
     margin: auto;
 }
-   
+   /* .....................review */
+   .Reviews .card{
+    text-align: start;
+   }
 
