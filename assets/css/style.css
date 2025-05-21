@@ -200,7 +200,7 @@ font-size: 15px;
    .Reviews .card{
     text-align: start;
     padding: 0px 10px;
-
+       width: 40%;
    }
    .Reviews img{
     width: 50px;
@@ -226,3 +226,7 @@ font-size: 15px;
     color: var(--gray);
     font-size: 80px;
 }
+.Reviews .container .flex{
+    gap:15px;
+}
+
