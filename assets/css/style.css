@@ -204,4 +204,7 @@ font-size: 15px;
     height: 50px;
     border-radius: 11111111px;
    }
-
+.Reviews  .card .flex{
+    justify-content:space-between;
+    
+}
