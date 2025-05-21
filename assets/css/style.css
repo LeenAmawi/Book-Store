@@ -209,11 +209,11 @@ font-size: 15px;
    }
 .Reviews  .card .flex{
     justify-content:space-between;
+    padding:5px 0px ;
     
 }
 .Reviews  .card p{
     font-size: 12px;
-    margin-bottom: 5px;
 }
 
 .Reviews h2{
@@ -228,5 +228,8 @@ font-size: 15px;
 }
 .Reviews .container .flex{
     gap:15px;
+}
+.Reviews h4{
+    padding-top: 0px;
 }
 
