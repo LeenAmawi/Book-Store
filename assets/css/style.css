@@ -267,6 +267,8 @@ padding: 20px;
 .ourBlog .card{
     width:30%;
     text-align: start;
+
+    box-shadow: -2px 5px 7px 9px var(--gray)
     
 }
 
@@ -282,4 +284,8 @@ padding: 20px;
 
 .ourBlog .card p{
     margin-bottom: 10px;
+}
+.ourBlog .card .flex i{
+    padding-bottom: 10px;
+    font-size: 20px;
 }
