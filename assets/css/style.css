@@ -234,4 +234,7 @@ font-size: 15px;
 }
 .digitalBook{
     background-image: url(../images/digitalbook.jpg);
+    height: 50vh;
+    background-size:cover;
+    margin-top: 50px;
 }
