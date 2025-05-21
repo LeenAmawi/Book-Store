@@ -198,6 +198,8 @@ font-size: 15px;
    /* .....................review */
    .Reviews .card{
     text-align: start;
+    padding: 0px 10px;
+
    }
    .Reviews img{
     width: 50px;
@@ -207,4 +209,8 @@ font-size: 15px;
 .Reviews  .card .flex{
     justify-content:space-between;
     
+}
+.Reviews  .card p{
+    font-size: 12px;
+    margin-bottom: 5px;
 }
