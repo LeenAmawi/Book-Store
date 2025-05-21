@@ -1,5 +1,6 @@
 :root{
     --primary:#36c7c0;
+    --gray: rgb(217, 217, 217);
 }
 *{
     padding:0;
@@ -129,7 +130,7 @@ h4{
 
 .cardBook
 {
-border: 2px solid rgb(152, 141, 141);;
+border: 2px solid rgb(152, 141, 141);
 text-align: center;  
 height: auto;  
 padding: 5px 30px;
@@ -220,4 +221,8 @@ font-size: 15px;
     font-size: 40px;
     margin-top: 160px;
     margin-bottom: 80px;
+}
+.Reviews  .card .flex i{
+    color: var(--gray);
+    font-size: 80px;
 }
