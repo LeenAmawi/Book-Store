@@ -314,3 +314,14 @@ padding: 20px;
     background-color: var(--gray);
    
 }
+.Footer h3{
+    padding-bottom: 20px;
+}
+.Footer ul a{
+    font-weight: lighter;
+   
+
+}
+.Footer ul li{
+    padding-bottom: 5px;
+}
