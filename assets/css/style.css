@@ -126,6 +126,9 @@ h4{
 .about2{
     margin-top: 40px;
 }
+.about2 .imgAbout2{
+    width: 40%;
+}
 /* featured book */
 
 .cardBook
