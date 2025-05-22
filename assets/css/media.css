@@ -32,7 +32,7 @@
         #menu-check:checked~ label .close{
             display:inline;
         }
-        .About .flex{
+        .About .flex , .Reviews .flex {
              flex-wrap: wrap; 
             flex-direction:row;
             gap: 15px;
@@ -47,13 +47,12 @@
        .Img{
         width:100%;
        }
-       header .flex , .newArrivals .flex ,.Footer .flex{
+       header .flex , .newArrivals .flex ,.Footer .flex {
         flex-direction: column;
         gap:25px;
        }
-       .cardBook{
-         width:50%;
-       }
+   
+       
        .Footer div{
         width:100%;
         text-align: center;
@@ -61,6 +60,10 @@
        .Footer .pFooter{
         padding: 0px;
        }
+       
+       .newArrivals .cardBook{
+        width: 100%;
+}
 }
 
 @media screen and (max-width:600px){
