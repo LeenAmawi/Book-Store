@@ -328,5 +328,17 @@ padding: 20px;
 }
 .Footer .pFooter{
     padding-right: 100px;
+
     
+}
+.Footer .pFooter p{
+    padding-top: 15px;
+}
+.Footer .btnHeader{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-top: 10px;
 }
