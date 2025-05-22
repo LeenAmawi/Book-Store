@@ -47,7 +47,7 @@
        .Img{
         width:100%;
        }
-       header .flex,.about2 .flex , .newArrivals .flex ,.Footer .flex{
+       header .flex , .newArrivals .flex ,.Footer .flex{
         flex-direction: column;
         gap:25px;
        }
@@ -64,6 +64,11 @@
 }
 
 @media screen and (max-width:600px){
+    .about2 .flex{
+         flex-direction: column;
+        gap:25px;
+
+    }
     .about2 .imgAbout2{
         width: 100%;
     }
