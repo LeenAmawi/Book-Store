@@ -294,6 +294,9 @@ padding: 20px;
     width: 100px;
     height: 60px;
 }
-/* .Footer div{
-    max-width: ;
-} */
+.Footer .flex{
+    gap: 20px;
+}
+.Footer div{
+    width: 1500px; 
+}
