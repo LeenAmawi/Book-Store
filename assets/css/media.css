@@ -64,6 +64,15 @@
        .newArrivals .cardBook{
         width: 100%;
 }
+.digitalBook {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.digitalBook .btnHeader{
+    top:170px;
+    left:60px;
+}
 }
 
 @media screen and (max-width:600px){
