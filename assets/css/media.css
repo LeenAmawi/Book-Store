@@ -44,14 +44,20 @@
        .Img{
         width:100%;
        }
-       header .flex,.about2 .flex , .newArrivals .flex{
+       header .flex,.about2 .flex , .newArrivals .flex ,.Footer .flex{
         flex-direction: column;
         gap:25px;
        }
        .cardBook{
          width:50%;
        }
-       
+       .Footer div{
+        width:100%;
+        text-align: center;
+       }
+       .Footer .pFooter{
+        padding: 0px;
+       }
       
 
 }
