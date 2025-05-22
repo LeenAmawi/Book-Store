@@ -342,3 +342,13 @@ padding: 20px;
     -o-border-radius: 30px;
     margin-top: 10px;
 }
+input[type="email"]{
+    background-color: #abb4b3;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 8px 55px 8px 5px;
+border: none;
+}
