@@ -32,10 +32,16 @@
         #menu-check:checked~ label .close{
             display:inline;
         }
-        .About .flex , .Reviews .flex {
+        .About .flex , .Reviews .flex ,.ourBlog .flex{
              flex-wrap: wrap; 
             flex-direction:row;
-            gap: 15px;
+            justify-content: center;
+            gap: 50px;
+        }
+        .ourBlog .card{
+            width: 45%;
+    
+
         }
        .card{
         width: 40%;
@@ -47,7 +53,7 @@
        .Img{
         width:100%;
        }
-       header .flex , .newArrivals .flex ,.Footer .flex {
+       header .flex , .newArrivals .flex ,.Footer .flex  {
         flex-direction: column;
         gap:25px;
        }
@@ -72,6 +78,7 @@
 .digitalBook .btnHeader{
     margin-top: 170px;
 }
+
 }
 
 @media screen and (max-width:600px){
