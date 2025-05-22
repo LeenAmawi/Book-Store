@@ -32,7 +32,7 @@
         #menu-check:checked~ label .close{
             display:inline;
         }
-        .About .flex , .Reviews .flex ,.ourBlog .flex{
+        .About .flex , .Reviews .flex ,.ourBlog .flex, .newArrivals .flex{
              flex-wrap: wrap; 
             flex-direction:row;
             justify-content: center;
@@ -53,7 +53,7 @@
        .Img{
         width:100%;
        }
-       header .flex , .newArrivals .flex ,.Footer .flex  {
+       header .flex  ,.Footer .flex  {
         flex-direction: column;
         gap:25px;
        }
@@ -68,7 +68,7 @@
        }
        
        .newArrivals .cardBook{
-        width: 100%;
+        width: 25%;
 }
 .digitalBook {
     background-size: contain;
@@ -77,6 +77,9 @@
 }
 .digitalBook .btnHeader{
     margin-top: 170px;
+}
+.FeaturedBook{
+  overflow-x: scroll;
 }
 
 }

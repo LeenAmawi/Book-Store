@@ -180,7 +180,11 @@ font-size: 15px;
         font-size: 40px;
        }
 /* ..................................newarrivals */
- .newArrivals {
+.imgArrivals{
+    width:120px ;
+    height:183px ;
+}
+.newArrivals {
    margin-top: 250px; 
  }
 
