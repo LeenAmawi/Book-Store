@@ -220,6 +220,9 @@ font-size: 15px;
     -ms-border-radius: 11111111px;
     -o-border-radius: 11111111px;
 }
+.FeaturedBook{
+  overflow-x: scroll;
+}
 .Reviews  .card .flex{
     justify-content:space-between;
     padding:5px 0px ;
