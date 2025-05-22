@@ -295,14 +295,15 @@ padding: 20px;
     height: 60px;
 }
 .Footer .flex{
-    gap: 20px;
+    gap: 50px;
      align-items: flex-start;
      padding-top: 30px;
      padding-bottom: 60px;
    
 }
 .Footer div{
-    width: 1500px; 
+    width: 1500px;
+    
 
 }
 .Footer div i {
@@ -324,4 +325,8 @@ padding: 20px;
 }
 .Footer ul li{
     padding-bottom: 5px;
+}
+.Footer .pFooter{
+    padding-right: 100px;
+    
 }
