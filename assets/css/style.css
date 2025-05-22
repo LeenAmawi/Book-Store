@@ -273,7 +273,7 @@ padding: 20px;
     height: 30%;
 }
 .ourBlog .card{
-    width:30%;
+    /* width:30%; */
     text-align: start;
 
     box-shadow: -2px 5px 7px 9px var(--gray)
