@@ -78,6 +78,9 @@
 .digitalBook .btnHeader{
     margin-top: 170px;
 }
+.FeaturedBook{
+  overflow-x: scroll;
+}
 
 }
 
