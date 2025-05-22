@@ -1,4 +1,4 @@
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
        ul.flex{
     display: none;
     flex-direction: column;
@@ -36,7 +36,7 @@
         }
        .card{
         width: 40%;
-        /* max-width: 100%; */
+
        }
        .content{
         width:100%;
@@ -58,9 +58,8 @@
        .Footer .pFooter{
         padding: 0px;
        }
-      
-
 }
+
 @media screen and (max-width:600px){
     h1{
         font-size: 40px
