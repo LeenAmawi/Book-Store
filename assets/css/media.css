@@ -78,7 +78,13 @@
 .digitalBook .btnHeader{
     margin-top: 170px;
 }
-
+.newArrivals .cardBook{
+    width: 90%;
+}
+.newArrivals .grid-arrivals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
 
@@ -95,7 +101,9 @@
         font-size: 40px
     }
     .card , .cardBook{
-        width:100%;}
+        width:100%;
+    }
+
         .digitalBook .btnHeader{
               margin-top: 70px;
               padding: 5px;
@@ -105,4 +113,14 @@
         .digitalBook{
             height: 15vh;
         }
+        .newArrivals .cardBook{
+    width: 90%;
+}
+.newArrivals .grid-arrivals{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+.ourBlog .card{
+    width: 100%;
+}
 }
