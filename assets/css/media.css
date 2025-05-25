@@ -105,9 +105,10 @@
     }
 
         .digitalBook .btnHeader{
-              margin-top: 70px;
+              margin-top: 75px;
               padding: 5px;
               font-size: 10px;
+              margin-left: -15px;
             
         }
         .digitalBook{
