@@ -63,6 +63,7 @@ header{
     background-size: contain;
     background-position: center;
     background-repeat-y: no-repeat;
+    overflow: hidden;
 }
  .content{
       width: 45%;
@@ -179,7 +180,12 @@ font-size: 15px;
         margin-bottom: 80px;
         font-size: 40px;
        }
-/* ..................................newarrivals */
+/* ..................................newarrivals ...........................................*/
+.newArrivals .cardBook{
+    width: 250px;
+    height: 340px;
+    margin: 10px 20px;
+}
 .imgArrivals{
     width:120px ;
     height:183px ;
@@ -193,23 +199,39 @@ font-size: 15px;
         margin-bottom: 30px;
         font-size: 40px;  
  }
-  .newArrivals .flex{
-    gap: 50px;
-    margin-bottom: 30px;
-  }
+
 
 .newArrivals div i ,.Reviews i{
     color: var(--primary);
     font-size: 15px;
 }
-.newArrivals .container{
-    margin: auto;
+
+.newArrivals .grid-arrivals .cardBook:hover {
+    box-shadow: 0px 0px 5px black;
+}
+.newArrivals .grid-arrivals .cardBook img {
+    margin-top: 5px;
+    transition: margin-top 0.5s ease-in-out 2ms ;
+    -webkit-transition: margin-top 0.5s ease-in-out 2ms ;
+    -moz-transition: margin-top 0.5s ease-in-out 2ms ;
+    -ms-transition: margin-top 0.5s ease-in-out 2ms ;
+    -o-transition: margin-top 0.5s ease-in-out 2ms ;
+}
+.newArrivals .grid-arrivals .cardBook:hover img {
+    margin: 10px 0px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.newArrivals .grid-arrivals{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
 }
    /* .....................review */
    .Reviews .card{
     text-align: start;
     padding: 0px 10px;
-       /* width: 40%; */
    }
    .Reviews img{
     width: 50px;
