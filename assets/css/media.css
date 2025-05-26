@@ -32,7 +32,7 @@
         #menu-check:checked~ label .close{
             display:inline;
         }
-        .About .flex , .Reviews .flex ,.ourBlog .flex, .newArrivals .flex{
+        .About .flex , .Reviews .flex ,.ourBlog .flex{
              flex-wrap: wrap; 
             flex-direction:row;
             justify-content: center;
